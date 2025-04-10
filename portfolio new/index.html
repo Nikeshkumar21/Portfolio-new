@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nikesh Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Nikesh <span>Kumar</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="#Home">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#projects">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#Home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="Home">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img src="Attachment/nikeshpic.JPG" alt="Nikesh Kumar" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Nikesh</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a <span class="typewriter-text"></span><label>|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            I’m a passionate and detail-oriented Full Stack Developer with
+            hands-on experience in the MERN stack. From crafting responsive
+            frontends to building secure REST APIs, I love turning ideas into
+            impactful digital products.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/Nikeshkumar21"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="Attachment/Nikesh-kumar-R-FSD-Resume.pdf"
+              download
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              title="Download Resume"
+            >
+              <i class="fa-solid fa-file-arrow-down"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nikesh-kumar-r-7a8694221"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="tel:9715256875"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <a href="mailto:nikeshkumarr2109@gmail.com"
+              ><button>Hire me</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <h2>About Me</h2>
+        <p>
+          I am a Full Stack Developer with a strong foundation in MERN
+          technologies. My interests include building modern dashboards,
+          authentication systems, and user-friendly educational tools. I love
+          solving real-world problems with clean, scalable code.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript (ES6+)</li>
+          <li>React.js, Vite</li>
+          <li>Node.js, Express.js</li>
+          <li>MongoDB, Mongoose</li>
+          <li>JWT, bcrypt.js</li>
+          <li>RESTful APIs, Axios</li>
+          <li>Git, GitHub</li>
+          <li>Bootstrap, Thunder client</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Learning Dashboard</h3>
+          <p>
+           Developed a Learning Dashboard using the MERN stack, aimed at enhancing the learning experience for
+students, educators, and course coordinators. The platform provides a customizable, interactive, and
+authentication-based learning environment with features like course creation, study plans, task submissions,
+and quiz evaluations. It supports light and dark mode for an improved UI experience.
+Key Contributions - Designed and developed a secure authentication system (JWT-based). Built a role-based
+access control system for Admins, Educators, and Students. Implemented course creation and study plans to
+help educators manage content effectively. Developed quiz evaluations and task submission features for
+better learning tracking. Integrated RESTful APIs for handling user management and data retrieval. Improved
+UI/UX with React Vite, ensuring a fast and responsive experience. Used MongoDB Aggregation for efficient
+database queries and optimized performance. Implemented error handling and validation for secure and
+seamless functionality.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Onroadz</h3>
+          <p>
+            A user management system built during internship at Religh
+            Technologies. It includes image uploads, secure routes, and user
+            role handling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:nikeshkumarr2109@gmail.com"
+            >nikeshkumarr2109@gmail.com</a
+          >
+        </p>
+        <p>Phone: <a href="tel:9715256875">9715256875</a></p>
+        <p>
+          GitHub:
+          <a href="https://github.com/Nikeshkumar21" target="_blank"
+            >github.com/Nikeshkumar21</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/nikesh-kumar-r-7a8694221"
+            target="_blank"
+            >nikesh-kumar-r</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
